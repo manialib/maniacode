@@ -1,0 +1,30 @@
+{
+    "name": "manialib/maniacode",
+    "type": "library",
+    "description": "Fluent object interface for writing Maniacode",
+    "keywords": ["Ubisoft", "Nadeo", "ManiaPlanet", "ShootMania", "TrackMania", "Manialib"],
+    "license": "MIT",
+    "homepage": "https://github.com/manialib",
+    "authors": [
+        {
+            "name": "Nadeo",
+            "email": "contact@nadeo.com",
+            "homepage": "http://www.nadeo.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Manialib\\": "src/Manialib/"}
+    },
+    "require": {
+        "manialib/xml": "~4.0"
+    },
+    "minimum-stability": "dev",
+    "archive": {
+        "exclude": ["/bin", "/examples"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    }
+}
