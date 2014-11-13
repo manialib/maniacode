@@ -1,3 +1,1 @@
-# Manialib\Maniacode
-
-Fluent object interface for writing Maniacode
+More info: https://github.com/manialib/manialib
